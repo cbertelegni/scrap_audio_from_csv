@@ -1,10 +1,12 @@
-Scrap Audios list on csv when the referrer is truncate
-======================================================
+Scrap Audio list from csv file when the referrer is truncate
+=============================================================
 
 
 ## Usage
 
-On main.py set de name of csv on __audio\_csv__ and number of column for get de src __column_src__
+In main.py set:
+  * __audio\_csv__: name of the csv
+  * __column_src__: number of column to get the src of each file
 
 After run the main.py file
 
