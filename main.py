@@ -15,10 +15,12 @@ column_src = 0 # column src audio on csv
 
 INPUT_SRC = os.path.join(BASE, audio_csv);
 OUTPUT_DIR = os.path.join(BASE, "output");
+# referer_url = "http://example.com"
+referer_url = None
 
 """ Scrap audios """
 if __name__ == "__main__":
 
-   scraper = Scrapfromcsv(INPUT_SRC, column_src, OUTPUT_DIR)
+   scraper = Scrapfromcsv(INPUT_SRC, column_src, OUTPUT_DIR, referer_url)
 
-   scraper.scrap(referer_url = "http://example.com")
+   scraper.scrap()
